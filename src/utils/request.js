@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const request = axios.create({
-    baseURL: "http://localhost:8080",
+    // baseURL: "http://localhost:8080",
+    baseURL: "https://detonative-undefectively-julien.ngrok-free.dev",
     timeout: 5000
 });
 
